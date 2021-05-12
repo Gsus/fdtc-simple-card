@@ -1,0 +1,75 @@
+body {
+  box-sizing: border-box;
+  background-color: #2d2e36;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#card {
+  /* display: block; */
+  /* align-self: center; */
+  background-color: #383a45;
+  border-radius: 0.5em;
+  margin-right: 1.75em;
+  margin-left: 1.875em;
+  /* padding-left: 1.5625em;  25px */
+  /* padding-right: 1.6875em;
+    padding-top: 1.5625em;
+    padding-bottom: 1.875em; */
+  padding: 1.5625em 1.6875em 1.875em 1.5625em;
+}
+
+img#mountain {
+  width: 304px;
+  height: 290px;
+  border-radius: 0.5em;
+  display: block;
+  margin-bottom: 1.625em;
+  margin-inline: auto;
+}
+
+#card h1 {
+  color: #fff;
+  line-height: 119.7%;
+  font-weight: normal;
+  margin-bottom: 1, 75em;
+}
+
+#card p {
+  color: #8d91a6;
+  line-height: 152.7%;
+  margin-bottom: 0.6875em;
+}
+
+@media only screen and (min-width: 660px) {
+  #card {
+    padding-block: 1.875em;
+    padding-inline: 1.6875em;
+    display: flex;
+    align-items: center;
+    max-width: 729px;
+    /* max-height: 310px; */
+  }
+
+  #card h1 {
+    margin-bottom: 1.75em;
+  }
+  #card p {
+    margin-bottom: 1.875em;
+  }
+
+  /* #card #main-content {
+    border: 1px solid red;
+  } */
+
+  img#mountain {
+    width: 262px;
+    height: 250px;
+    margin-right: 2.375em;
+    margin-bottom: initial;
+  }
+}
